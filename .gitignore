@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Herramientas de pruebas, lint y cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+tests/
+
+# Paquetes y artefactos de construccion
+build/
+dist/
+*.egg-info/
+
+# Configuracion local de editores: mantener la configuracion compartida de VS Code
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
